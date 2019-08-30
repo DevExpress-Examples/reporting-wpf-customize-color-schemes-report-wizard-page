@@ -47,7 +47,9 @@ Namespace CustomColorSchemes
         End Sub
 
         'Add a custom color scheme to the storage.
-        Public Function AddColorScheme(ByVal colorScheme As ColorScheme) As Boolean
+        Public Function AddColorScheme(ByVal colorScheme As ColorScheme) As Boolean Implements IColorSchemeStorage.AddColorScheme
+
+
             If colorSchemes.Where(Function(x) x.Name = colorScheme.Name).Any() Then
                 Return False
             End If
@@ -56,7 +58,8 @@ Namespace CustomColorSchemes
         End Function
 
         'Remove a custom color scheme from the storage.
-        Public Function RemoveColorScheme(ByVal colorSchemeName As String) As Boolean
+        Public Function RemoveColorScheme(ByVal colorSchemeName As String) As Boolean Implements IColorSchemeStorage.RemoveColorScheme
+
             Dim colorScheme As ColorScheme = colorSchemes.Where(Function(x) x.Name = colorSchemeName).First()
             If colorScheme IsNot Nothing Then
                 colorSchemes.Remove(colorScheme)
