@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830427)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Reporting for WPF - Customize the `Choose a Report Color Scheme` Wizard Page
+# Reporting for WPF - Customize the Choose a Report Color Scheme Wizard Page
 
 This example shows how to customize the [Choose a Report Color Scheme](https://docs.devexpress.com/XtraReports/400459/create-end-user-reporting-applications/wpf-reporting/end-user-report-designer/gui/report-wizard/table-report/choose-a-report-color-scheme) wizard page in a WPF application.
 
@@ -20,8 +20,8 @@ The main steps to change the color scheme set on the Report Wizard page are as f
 
 ## Files to Review
 
-- [MainWindow.xaml](CS\MainWindow.xaml) (VB: [MainWindow.xaml](VB\MainWindow.xaml))
-- [CustomColorSchemeStorage.cs](CS\CustomColorSchemeStorage.cs) (VB: [CustomColorSchemeStorage.vb](VB\CustomColorSchemeStorage.vb))
+- [MainWindow.xaml](CS/MainWindow.xaml) (VB: [MainWindow.xaml](VB/MainWindow.xaml))
+- [CustomColorSchemeStorage.cs](CS/CustomColorSchemeStorage.cs) (VB: [CustomColorSchemeStorage.vb](VB/CustomColorSchemeStorage.vb))
 ## Documentation
 
 - [Wizard Customization Overview](https://docs.devexpress.com/XtraReports/118019/wpf-reporting/end-user-report-designer-for-wpf/api-and-customization/wizard-customization-overview)
